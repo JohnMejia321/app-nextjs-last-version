@@ -49,13 +49,3 @@ export const config = {
     '/api/auth/get-session'
   ]
 }
-
-  return response
-}
-
-export const config = {
-  matcher: [
-    '/api/:path*',
-    '/api/auth/:path*'
-  ]
-}

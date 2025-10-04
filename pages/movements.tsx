@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { authClient } from '@/lib/auth/client';
+import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 import { ArrowLeft, Plus, TrendingUp, TrendingDown } from 'lucide-react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
